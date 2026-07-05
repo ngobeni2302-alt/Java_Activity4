@@ -11,7 +11,8 @@ In this activity, you are writing an E-Commerce warehouse service engine. Pay ex
 #### 1. `Item.java`
 * **Private Variables:** `name` (String), `price` (double)
 * **Constructor:** Sets both fields. Protect `price` by filtering it through the setter.
-* **Encapsulation:** Standard getters. Setter for `price`: If price is less than `0.0`, force it to `0.0`.
+* **Encapsulation:** Standard getters. Setter for `price`: 
+* If price is less than `0.0`, force it to `0.0`.
 
 #### 2. `Order.java`
 * **Private Variables:** `orderId` (String), `item` (Item), `shippingMethod` (String)
