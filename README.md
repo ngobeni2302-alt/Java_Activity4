@@ -30,7 +30,9 @@ In this activity, you are writing an E-Commerce warehouse service engine. Pay ex
 
 #### 4. `FulfillmentService.java`
 * **Methods:**
-  * `public Shipment processOrder(Order order)`: Return a basic default `Shipment` object with a total cost matching the order's item price directly, and tracking details set to `"Generic Processing"`.
+  * `public Shipment processOrder(Order order)`: Return a basic default `Shipment` object
+  * with a total cost matching the order's item price directly, and tracking details set to
+  * `"Generic Processing"`.
 
 #### 5. `StandardFulfillment.java` (Inherits from `FulfillmentService`)
 * **Polymorphic Method Override:**
