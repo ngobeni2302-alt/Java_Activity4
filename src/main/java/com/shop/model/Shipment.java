@@ -10,5 +10,6 @@ public class Shipment {
     }
 
     public double getTotalCost() {return this.totalCost;}
-    public String getShippingDetails() {return this.trackingDetails;}
+    public String getTrackingDetails() {return this.trackingDetails;}
+
 }

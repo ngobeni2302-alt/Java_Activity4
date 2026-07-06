@@ -11,8 +11,8 @@ public class Order {
         this.shippingMethod = shippingMethod;
     }
 
-    public String getOrderId(){return this.orderId;}
-    public Item getItem(){return this.item;}
-    public String getShippingMethod(){return this.shippingMethod;}
+    public String getOrderId() {return this.orderId;}
+    public Item getItem() {return this.item;}
+    public String getShippingMethod() {return this.shippingMethod;}
 
 }
