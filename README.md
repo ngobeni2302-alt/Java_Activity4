@@ -45,7 +45,8 @@ In this activity, you are writing an E-Commerce warehouse service engine. Pay ex
 * **Polymorphic Method Override:**
   * Override `processOrder(Order order)`.
   * Calculate total cost as: `order.getItem().getPrice() + 25.00` (adds a $25 express processing surcharge).
-  * Return a `new Shipment` initialized with that calculated cost and the tracking string: `"URGENT: Shipped via " + order.getShippingMethod()`.
+  * Return a `new Shipment` initialized with that calculated cost and the 
+  * tracking string: `"URGENT: Shipped via " + order.getShippingMethod()`.
 
 ---
 
