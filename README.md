@@ -38,7 +38,8 @@ In this activity, you are writing an E-Commerce warehouse service engine. Pay ex
 * **Polymorphic Method Override:**
   * Override `processOrder(Order order)`.
   * Calculate total cost as: `order.getItem().getPrice() + 5.00` (adds a $5 standard shipping charge).
-  * Return a `new Shipment` initialized with that calculated cost and the tracking string: `"Shipped via " + order.getShippingMethod()`.
+  * Return a `new Shipment` initialized with that calculated cost and the tracking string: `
+  * "Shipped via " + order.getShippingMethod()`.
 
 #### 6. `ExpressFulfillment.java` (Inherits from `FulfillmentService`)
 * **Polymorphic Method Override:**
