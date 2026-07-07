@@ -53,4 +53,5 @@ In this activity, you are writing an E-Commerce warehouse service engine. Pay ex
 ### 🚦 Root Driver: `com.shop`
 
 #### 7. `Main.java`
-* Initialize items, orders, and a fulfillment engine to visually confirm everything integrates nicely before clicking the test runner!
+* Initialize items, orders, and a fulfillment engine to visually confirm everything integrates 
+* nicely before clicking the test runner!
